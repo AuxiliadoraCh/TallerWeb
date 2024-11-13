@@ -8,4 +8,4 @@ RUN npm ci —only-production
 
 COPY . .
 
-CMD ’Node’, ’server.js’
+CMD ["node","server.js"]
